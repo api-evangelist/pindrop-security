@@ -1,8 +1,20 @@
 aid: pindrop-security
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 name: Pindrop Security
-description: Pindrop Security is a company surfaced as a portfolio company of a16z, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Pindrop is an Atlanta-based voice security and identity company founded in 2011 by Georgia
+  Tech researchers. Its "Real Human + Right Human" platform detects deepfakes, prevents fraud,
+  and authenticates callers across voice, video, and digital channels for contact centers and
+  virtual meetings. Core products are Pindrop Pulse (deepfake and synthetic-voice detection),
+  Pindrop Protect (near real-time fraud risk assessment), and Pindrop Passport (multifactor
+  voice, device, and behavioral authentication, including VeriCall technology). Pindrop holds
+  300+ patents and integrates with contact-center and meeting platforms such as Amazon Connect,
+  Genesys, Five9, NICE, Cisco Webex, Zoom, and Microsoft Teams. The company is an enterprise,
+  sales-led vendor and does not publish a self-serve public developer portal or open API.
 url: https://raw.githubusercontent.com/api-evangelist/pindrop-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +23,31 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.pindrop.com/wp-content/themes/pindrop-theme/assets/img/pindrop-logo-orange-no-space.svg
 tags:
 - Company
+- Security
+- Voice
+- Authentication
+- Fraud Detection
+- Deepfake Detection
+- Identity
+- Biometrics
+- Contact Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/pindrop-security-trust-center.yml
+- type: DomainSecurity
+  url: security/pindrop-security-domain-security.yml
 - type: Website
-  url: http://www.pindropsecurity.com/
+  url: https://www.pindrop.com/
+- type: About
+  url: https://www.pindrop.com/company/
+- type: Blog
+  url: https://www.pindrop.com/research/
+- type: Privacy
+  url: https://www.pindrop.com/privacy/
+- type: TermsOfService
+  url: https://www.pindrop.com/pindrop-security-website-terms-of-use/
+- type: SignUp
+  url: https://www.pindrop.com/request-a-demo/
+- type: GitHubOrganization
+  url: https://github.com/pindrop
+- type: Compliance
+  url: https://trust.pindrop.com/
