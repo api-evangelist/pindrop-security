@@ -86,3 +86,5 @@ common:
   url: https://github.com/pindrop
 - type: Compliance
   url: https://trust.pindrop.com/
+x-parent: pindrop
+x-relationship: product
