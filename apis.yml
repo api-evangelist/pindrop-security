@@ -66,6 +66,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Support
+  url: https://www.pindrop.com/company/customer-support/
+- type: PrivacyPolicy
+  url: https://www.pindrop.com/privacy/
 - type: TrustCenter
   url: security/pindrop-security-trust-center.yml
 - type: DomainSecurity
@@ -86,5 +90,3 @@ common:
   url: https://github.com/pindrop
 - type: Compliance
   url: https://trust.pindrop.com/
-x-parent: pindrop
-x-relationship: product
