@@ -1,6 +1,7 @@
 generated: '2026-10-13'
 method: searched
 checked:
+- genesys/integrations/genesys-integration-edges.yml
 - https://azuremarketplace.microsoft.com/
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
@@ -57,6 +58,27 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Zoom app
+- partner_name: Genesys (own)
+  partner: genesys
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/644607b7-b4a3-43b8-8151-22e724f8154b
+  mirror_of: genesys/integrations/genesys-integration-edges.yml
+  apps:
+  - Pindrop Voice Authentication and Fraud Detection
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: businessOptimization
+  publisher_verified:
+  - attestation:iso
+  - attestation:pci
+  - attestation:soc2
 source:
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml

@@ -41,3 +41,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: pindrop-security-genesys-own
+  label: Genesys (own)
+  partner: genesys
+  partner_name: Genesys (own)
+  category: businessOptimization
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/644607b7-b4a3-43b8-8151-22e724f8154b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
